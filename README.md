@@ -1,16 +1,51 @@
-# React + Vite
+# 🎨 React Theme Management Application using Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Introduction
 
-Currently, two official plugins are available:
+This project is a simple yet powerful React application that demonstrates how to implement **global theme management** using the **Context API**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application allows users to switch between **Light Mode** and **Dark Mode** using a toggle button. The selected theme is applied across the entire application without passing props manually from one component to another.
 
-## React Compiler
+This project helps in understanding how Context API works for global state management in React applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🚀 Project Objective
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The main objective of this project is to:
+
+- Understand global state management in React
+- Learn how Context API eliminates prop drilling
+- Implement dynamic theme switching
+- Apply conditional styling based on state values
+- Build reusable and scalable React components
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| React JS | Frontend Library |
+| Context API | Global State Management |
+| useState Hook | State Handling |
+| useContext Hook | Access Global State |
+| CSS | Styling |
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+│
+├── context/
+│   └── ThemeContext.jsx
+│
+├── components/
+│   └── Navbar.jsx
+│
+├── App.jsx
+├── main.jsx
+├── index.css
+└── App.css
